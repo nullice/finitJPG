@@ -11,13 +11,13 @@
 输出图片质量信息：  
 `naiveOIQ image `
 
-输出图片质信息，并且与另一图片比较，计算差异：  
+输出图片质信息，并且与另一图片比较，计算差异：   
 `naiveOIQ image OriginalImage`
 
-加入 `-q`参数快速比较，但是 SSIM 信息会没那么准确  
+加入 `-q`参数快速比较，但是 SSIM 信息会没那么准确   
 `naiveOIQ image OriginalImage -q`
 
-加入 `-a`会得到 G、B、R 每个通道各自的 SSIM 比较信息，速度慢
+加入 `-a`会得到 G、B、R 每个通道各自的 SSIM 比较信息，速度慢   
 `naiveOIQ image OriginalImage -a`
 
 
@@ -34,8 +34,8 @@
 PSNR 越高图片越相似。
 画质损失会让 SSIM 降低。
 
-### `SSIM` 平均结果相似度
+### `SSIM` 平均结构相似度
 >这里 SSIM 是指 MSSIM（平均结构相似度）
 
-平均结果相似度越接近 1 图片越相似。
+平均结构相似度越接近 1 图片越相似。
 画质损失会让 SSIM 降低。
