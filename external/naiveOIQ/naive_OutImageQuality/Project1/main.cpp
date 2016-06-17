@@ -265,7 +265,6 @@ void task(string name)
 
 int main(int argc, char* argv[])
 {
-
 	
 	//for (int a = 0; a < argc; a++)
 	//{
